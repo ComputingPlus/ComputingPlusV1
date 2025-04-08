@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ComputingPlus - Home</title>
+  <style>
+    /* Reset and base styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body, html {
+      height: 100%;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    /* Fullscreen background with gradient */
+    body {
+      background: linear-gradient(135deg, #6a11cb, #2575fc);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+    }
+    /* Main container styling */
+    .container {
+      width: 90%;
+      max-width: 1200px;
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      padding: 40px;
+      border-radius: 15px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+      text-align: center;
+      margin: 20px;
+    }
+    /* Logo styling */
+    .logo {
+      max-width: 200px;
+      width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+    }
+    /* Heading styling */
+    h1 {
+      font-size: 3em;
+      margin-bottom: 20px;
+      letter-spacing: 2px;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    }
+    /* Description styling */
+    .description {
+      font-size: 1.4em;
+      line-height: 1.5;
+      margin-bottom: 40px;
+      padding: 0 20px;
+    }
+    /* Button container styling */
+    .button-group {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    /* Button styling */
+    .button-group a {
+      display: inline-block;
+      padding: 15px 30px;
+      font-size: 1.2em;
+      font-weight: bold;
+      text-decoration: none;
+      color: #fff;
+      background-color: rgba(0, 123, 255, 0.8);
+      border: 2px solid rgba(0, 123, 255, 0.8);
+      border-radius: 8px;
+      transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+    .button-group a:hover {
+      background-color: rgba(0, 123, 255, 1);
+      transform: scale(1.05);
+    }
+    /* Footer styling */
+    footer {
+      margin-top: 40px;
+      font-size: 0.9em;
+      opacity: 0.8;
+    }
+    /* Responsive text sizes */
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 2.5em;
+      }
+      .description {
+        font-size: 1.2em;
+      }
+      .button-group a {
+        padding: 12px 24px;
+        font-size: 1em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="Logo.PNG" alt="ComputingPlus Logo" class="logo">
+    <h1>Computing Plus</h1>
+    <p class="description">
+      Welcome to ComputingPlus – your efficient, innovative, and perfect platform for handling homework, tackling computing quizzes, and even creating your own personalized quizzes. Whether you are a student, a staff member, or an administrator, our website is designed to simplify your tasks and enhance your productivity with a clean, intuitive interface.
+    </p>
+    <div class="button-group">
+      <a href="Staff_login.php">Staff Login</a>
+      <a href="Admin_Login.php">Admin Login</a>
+      <a href="Student_login.php">Student Login</a>
+      <a href="Database.php">Database Setup REQUIRED</a>
+    </div>
+    <footer>
+      &copy; 2025 ComputingPlus. All rights reserved.
+    </footer>
+  </div>
+</body>
+</html>
